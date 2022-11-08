@@ -11,7 +11,7 @@ import gradio as gr
 learner = load_learner('model/export.pkl')
 
 # %% app.ipynb 9
-cats = ('Grizzly Bear', 'Black Bear', 'Teddy Bear',)
+cats = ('Black Bear', 'Grizzly Bear', 'Teddy Bear',)
 
 def classify_img(img):
     preds, idx, probs = learner.predict(img)
