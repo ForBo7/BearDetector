@@ -36,7 +36,9 @@ interface = gr.Interface(
     examples=examples,
     title=title,
     description=description,
-    article=article
+
 )
+
+#     article=article
 
 interface.launch(inline=False, enable_queue=True)
