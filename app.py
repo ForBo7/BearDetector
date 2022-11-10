@@ -24,7 +24,7 @@ examples = [str(img_path) for img_path in Path('example_images/').rglob('*.jpg')
 
 title = 'Bear Classifier'
 description = 'My first AI model that can tell you whether an image contains a grizzly bear, a black bear, or a teddy bear. This model was trained on the ' \
-              'ResNet18 architecture and used the fastai library.'
+              'ResNet18 architecture and used the fastai library. Check out the associated blog post with the link below!'
 article = """
 <p style='text-align: center; font-size: 36px'><a href='https://forbo7.github.io/forblog/posts/2_bear_classifier_model.html'>Blog Post</a></p>
 """
